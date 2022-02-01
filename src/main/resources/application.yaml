@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gcp:
+      project-id: project-id
+      pubsub:
+        topics:
+          table-event: table-event
+
+messaging:
+  enabled: false
